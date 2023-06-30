@@ -15,11 +15,11 @@ class Movie
 
     public function getInfoFilm()
     {
-        return $this->title . " " . $this->genre;
+        return $this->title . " " . $this->genre . " " . $this->year;
     }
 }
 
-$film1 = new Movie("The Hangover", "Comedy", "Year");
+$film1 = new Movie("The Hangover", "Comedy", "2009");
 //$film1->title = "The Hangover";
 //$film1->genre = "Comedy";
 //$film1->year = "2009";
